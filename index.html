@@ -242,6 +242,296 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  background-color: #3F4632;
+  color: var(--text-light);
+  padding-bottom: 80px;
+  direction: rtl;
+}
+
+/* Background */
+.index-hero-section .hero-bg-wrapper {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.index-hero-section .hero-bg-wrapper > div {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Scrim */
+.index-hero-section .hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(to left, rgba(37, 31, 24, 0.88) 0%, rgba(37, 31, 24, 0.72) 45%, rgba(37, 31, 24, 0.25) 100%),
+    linear-gradient(to top, rgba(37, 31, 24, 0.75) 0%, transparent 55%);
+}
+
+/* Container */
+.index-hero-section .hero-container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 140px 48px 60px;
+}
+
+/* Content wrapper — right-aligned, max ~600px wide */
+.index-hero-section .hero-content-wrapper {
+  max-width: 620px;
+  margin-inline-start: 0;
+  text-align: right;
+}
+
+/* Badge */
+.index-hero-section .hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-direction: row;
+  background: rgba(200, 166, 106, 0.18);
+  border: 1px solid rgba(200, 166, 106, 0.45);
+  border-radius: 999px;
+  padding: 6px 14px 6px 10px;
+  margin-bottom: 24px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-family: Rubik, Assistant, sans-serif;
+}
+
+.index-hero-section .hero-badge-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+  animation: hero-pulse 2s ease-in-out infinite;
+}
+
+@keyframes hero-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.3); }
+}
+
+/* H1 */
+.index-hero-section .hero-h1 {
+  font-family: Ploni, Rubik, Assistant, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: var(--text-light);
+  margin: 0 0 20px;
+  text-shadow: 0 2px 24px rgba(0,0,0,0.45);
+}
+
+/* H3 */
+.index-hero-section .hero-h3 {
+  font-family: Rubik, Assistant, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--accent);
+  margin: 0 0 20px;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.35);
+}
+
+/* Body */
+.index-hero-section .hero-body {
+  font-family: Rubik, Assistant, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: rgba(248, 245, 238, 0.88);
+  margin: 0 0 36px;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+}
+
+/* CTA Row */
+.index-hero-section .hero-cta-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+}
+
+/* Primary Button */
+.index-hero-section .hero-btn-primary {
+  display: inline-block;
+  background: linear-gradient(180deg, #9B5A24 0%, #6F3812 100%);
+  color: #FFFDF8;
+  padding: 15px 32px;
+  border-radius: 2px;
+  border: none;
+  font-family: Rubik, Assistant, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: 0 4px 18px rgba(66, 36, 16, 0.38);
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.index-hero-section .hero-btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(66, 36, 16, 0.48);
+  color: #FFFDF8;
+}
+
+/* Ghost Button */
+.index-hero-section .btn-ghost-hero {
+  display: inline-block;
+  background: transparent;
+  color: var(--text-light);
+  border: 2px solid rgba(248, 245, 238, 0.5);
+  padding: 13px 28px;
+  border-radius: 2px;
+  font-family: Rubik, Assistant, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.index-hero-section .btn-ghost-hero:hover {
+  background: rgba(248, 245, 238, 0.12);
+  border-color: rgba(248, 245, 238, 0.8);
+  transform: translateY(-2px);
+  color: var(--text-light);
+}
+
+/* Trust Row */
+.index-hero-section .hero-trust-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.index-hero-section .hero-trust-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  font-family: Rubik, Assistant, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: rgba(248, 245, 238, 0.82);
+}
+
+.index-hero-section .hero-trust-item i {
+  color: var(--accent);
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+/* Bottom Divider */
+.index-hero-section .hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.index-hero-section .hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .index-hero-section .hero-h1 {
+    font-size: 2.6rem;
+  }
+  .index-hero-section .hero-container {
+    padding: 130px 32px 60px;
+  }
+  .index-hero-section .hero-content-wrapper {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .index-hero-section {
+    min-height: 100svh;
+    align-items: flex-end;
+    padding-bottom: 80px;
+  }
+  .index-hero-section .hero-scrim {
+    background-image:
+      linear-gradient(to top, rgba(30, 25, 18, 0.95) 0%, rgba(30, 25, 18, 0.72) 55%, rgba(30, 25, 18, 0.2) 100%);
+  }
+  .index-hero-section .hero-container {
+    padding: 100px 20px 40px;
+  }
+  .index-hero-section .hero-content-wrapper {
+    max-width: 100%;
+  }
+  .index-hero-section .hero-h1 {
+    font-size: 2rem;
+    margin-bottom: 14px;
+  }
+  .index-hero-section .hero-h3 {
+    font-size: 1.05rem;
+    margin-bottom: 14px;
+  }
+  .index-hero-section .hero-body {
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+  }
+  .index-hero-section .hero-cta-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .index-hero-section .hero-btn-primary,
+  .index-hero-section .btn-ghost-hero {
+    width: 100%;
+    text-align: center;
+    padding: 14px 20px;
+  }
+  .index-hero-section .hero-trust-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .index-hero-section .hero-badge {
+    margin-bottom: 16px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -783,37 +1073,63 @@
 </script>
   
   <main>
-    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
-  <!-- Background Image Layer -->
-  <div class="index-hero-bg">
-    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Cinematic documentary-style wide shot of a well-lit Israeli garage or warehouse interior in bright natural daylight — mechanics working on vehicles or warehouse workers organizing shelves, warm olive and amber tones, industrial yet human atmosphere, shallow depth of field, golden hour light streaming through large windows or open bay doors, authentic operational business environment, photojournalistic quality" width="1200" height="700" src="/assets/site-index-hero-image-1.webp" alt="סביבת עבודה תפעולית — מוסך, מחסן או מפעל בישראל">
+    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim" data-zappy-section="true">
+  <!-- Background Image -->
+  <div class="hero-bg-wrapper">
+    <div style="background-image: url('assets/site-index-hero-image-1.webp'); background-size: cover; background-position: center; width: 100%; height: 100%; position: absolute; inset: 0;"></div>
   </div>
 
   <!-- Scrim Overlay -->
-  <div class="index-hero-scrim" aria-hidden="true"></div>
+  <div class="hero-scrim" aria-hidden="true"></div>
 
   <!-- Content -->
-  <div class="index-hero-container">
-    <div class="index-hero-card">
-      <span class="index-hero-label">גיוס עובדים מקצה לקצה</span>
+  <div class="hero-container">
+    <div class="hero-content-wrapper">
 
-      <h1 class="index-hero-h1">עובדים בשבילך —<br>שקט בשבילך</h1>
-
-      <h3 class="index-hero-subtitle">שירות גיוס מלא לבעלי מוסכים, מחסנים ועסקים תפעוליים</h3>
-
-      <p class="index-hero-pain">חסר לך עובד? זה לא רק גיוס — זה קו"ח, ראיונות, בזבוז זמן, טעויות וצוות עמוס.<br>אנחנו מנהלים עבורך את הכל, עד שעובד מתאים נכנס ומתחיל לעבוד.</p>
-
-      <div class="index-hero-ctas">
-        <a href="/contact" class="index-hero-btn-primary">בואו נדבר</a>
-        <a href="/contact" class="index-hero-btn-secondary">גיוס בלי כאב ראש — מתחילים</a>
+      <!-- Badge -->
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        <span>גיוס עובדים מקצה לקצה</span>
       </div>
+
+      <!-- Headline -->
+      <h1 class="hero-h1">עובדים בשבילך —<br>שקט בשבילך</h1>
+
+      <!-- Subheading -->
+      <h3 class="hero-h3">שירות גיוס מלא לבעלי מוסכים, מחסנים ועסקים תפעוליים</h3>
+
+      <!-- Body -->
+      <p class="hero-body">חסר לך עובד? זה לא רק גיוס — זה קו"ח, ראיונות, בזבוז זמן, טעויות וצוות עמוס.<br>אנחנו מנהלים עבורך את הכל, עד שעובד מתאים נכנס ומתחיל לעבוד.</p>
+
+      <!-- CTAs -->
+      <div class="hero-cta-row">
+        <a href="/contact" class="btn-primary hero-btn-primary">גיוס בלי כאב ראש — מתחילים</a>
+        <a href="/contact" class="btn-ghost-hero">בואו נדבר</a>
+      </div>
+
+      <!-- Trust indicators -->
+      <div class="hero-trust-row">
+        <div class="hero-trust-item">
+          <i class="fa-solid fa-check-circle" aria-hidden="true"></i>
+          <span>ניהול מלא של תהליך הגיוס</span>
+        </div>
+        <div class="hero-trust-item">
+          <i class="fa-solid fa-check-circle" aria-hidden="true"></i>
+          <span>2–3 מועמדים מתאימים בלבד</span>
+        </div>
+        <div class="hero-trust-item">
+          <i class="fa-solid fa-check-circle" aria-hidden="true"></i>
+          <span>בלי בזבוז זמן — אנחנו מטפלים בהכל</span>
+        </div>
+      </div>
+
     </div>
   </div>
 
-  <!-- Bottom Torn-Paper Divider -->
-  <div class="index-hero-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,72 L0,38 Q60,28 120,36 T240,32 Q300,36 360,28 T480,34 Q540,30 600,36 T720,28 Q780,34 840,30 T960,36 Q1020,28 1080,34 T1200,30 Q1260,36 1320,30 T1440,36 L1440,72 Z" fill="#F7F2E8"></path>
+  <!-- Bottom Divider -->
+  <div class="hero-divider-wrapper">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,48 Q80,36 160,44 T320,40 Q400,36 480,44 T640,38 Q720,44 800,36 T960,42 Q1040,36 1120,44 T1200,40 L1200,80 Z" fill="#F7F2E8"></path>
     </svg>
   </div>
 </section>
