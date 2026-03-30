@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+גיוס עובדים למוסך, מפעל או מחסן — בלי קורות חיים מיותרים. אנחנו מביאים לך 2–3 מועמדים מושלמים בלבד. חסוך זמן, חסוך כאבי ראש, קבל עובד שעובד.
+
+### שירותים
+https://example.com/services
+שירותי גיוס עובדים למפעל בישראל, מוסכים ומחסנים — מהפרסום ועד הראיון. אנחנו מנהלים את כל התהליך ומגישים לך רק את המועמדים שבאמת מתאימים. בלי בזבוז זמן.
+
+### אודות
+https://example.com/about
+לא עוד חברת גיוס שזורקת קורות חיים ונעלמת. עובדים בשבילך נוסדה כדי לשרת בעלי עסקים תפעוליים שצריכים שקט ותוצאות — לא הבטחות. הכירו את הצוות שעומד מאחורי כל גיוס מוצלח.
+
+### צור קשר
+https://example.com/contact
+בעל מוסך, מחסן או מפעל שמחפש עובד אמין? צור קשר עכשיו וקבל ייעוץ גיוס ראשוני ללא עלות. עובדים בשבילך כאן כדי לפתור לך את הבעיה — מהר ובלי סיבוכים מיותרים.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
