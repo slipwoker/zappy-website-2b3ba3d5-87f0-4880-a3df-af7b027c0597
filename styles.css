@@ -7645,47 +7645,92 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+/* Background */
+
+/* Scrim */
+
+/* Container */
+
+/* Content wrapper — right-aligned, max ~600px wide */
+
+/* Badge */
+
+@keyframes hero-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.3); }
+}
+
+/* H1 */
+
+/* H3 */
+
+/* Body */
+
+/* CTA Row */
+
+/* Primary Button */
+
+/* Ghost Button */
+
+/* Trust Row */
+
+/* Bottom Divider */
+
+/* ── RESPONSIVE ── */
 
 /* ═══════════════════════════════════════════════════════════
    V2 REGENERATED SECTION CSS (בית-hero)
-   Added: 2026-03-30T15:21:41.403Z
+   Added: 2026-03-30T15:23:31.219Z
    ═══════════════════════════════════════════════════════════ */
 .index-hero-section {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  overflow: visible;
   display: flex;
   align-items: center;
-  background-color: #3F4632;
+  overflow: visible;
+  background-color: var(--bg-dark);
   color: var(--text-light);
   padding-bottom: 80px;
   direction: rtl;
 }
 
-/* Background */
-.index-hero-section .hero-bg-wrapper {
+/* Background image layer */
+.index-hero-section .hero-bg-layer {
   position: absolute;
   inset: 0;
   z-index: 0;
   overflow: hidden;
 }
 
-.index-hero-section .hero-bg-wrapper > div {
+.index-hero-section .hero-bg-img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  background-size: cover;
+  background-position: center;
 }
 
-/* Scrim */
+/* Scrim overlay */
 .index-hero-section .hero-scrim {
   position: absolute;
   inset: 0;
   z-index: 1;
   pointer-events: none;
   background-image:
-    linear-gradient(to left, rgba(37, 31, 24, 0.88) 0%, rgba(37, 31, 24, 0.72) 45%, rgba(37, 31, 24, 0.25) 100%),
-    linear-gradient(to top, rgba(37, 31, 24, 0.75) 0%, transparent 55%);
+    linear-gradient(160deg, rgba(37, 31, 24, 0.72) 0%, rgba(37, 31, 24, 0.55) 40%, rgba(37, 31, 24, 0.82) 100%),
+    linear-gradient(to bottom, rgba(47, 42, 32, 0.3) 0%, rgba(63, 70, 50, 0.65) 100%);
+}
+
+/* Decorative dot pattern */
+.index-hero-section .hero-pattern {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(200, 166, 106, 0.07) 1px, transparent 1px);
+  background-size: 28px 28px;
 }
 
 /* Container */
@@ -7695,26 +7740,31 @@ body.accessibility-widget-visible ._access-menu {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 140px 48px 60px;
+  padding: 140px 48px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-/* Content wrapper — right-aligned, max ~600px wide */
-.index-hero-section .hero-content-wrapper {
-  max-width: 620px;
-  margin-inline-start: 0;
-  text-align: right;
+/* Content wrapper */
+.index-hero-section .hero-content-wrap {
+  max-width: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
 }
 
 /* Badge */
 .index-hero-section .hero-badge {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
   flex-direction: row;
+  gap: 8px;
   background: rgba(200, 166, 106, 0.18);
-  border: 1px solid rgba(200, 166, 106, 0.45);
+  border: 1px solid rgba(200, 166, 106, 0.4);
   border-radius: 999px;
-  padding: 6px 14px 6px 10px;
+  padding: 6px 16px 6px 12px;
   margin-bottom: 24px;
   font-size: 0.8125rem;
   font-weight: 700;
@@ -7742,61 +7792,69 @@ body.accessibility-widget-visible ._access-menu {
 /* H1 */
 .index-hero-section .hero-h1 {
   font-family: Ploni, Rubik, Assistant, sans-serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 800;
-  line-height: 1.1;
-  letter-spacing: -0.03em;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
   color: var(--text-light);
-  margin: 0 0 20px;
-  text-shadow: 0 2px 24px rgba(0,0,0,0.45);
+  text-align: right;
+  margin: 0 0 16px 0;
+  text-shadow: 0 2px 16px rgba(37, 31, 24, 0.55);
 }
 
-/* H3 */
+.index-hero-section .hero-h1-accent {
+  color: var(--accent);
+  -webkit-text-fill-color: var(--accent);
+}
+
+/* H3 subtitle */
 .index-hero-section .hero-h3 {
   font-family: Rubik, Assistant, sans-serif;
   font-size: 1.25rem;
   font-weight: 600;
-  line-height: 1.5;
-  color: var(--accent);
-  margin: 0 0 20px;
-  text-shadow: 0 1px 8px rgba(0,0,0,0.35);
+  line-height: 1.55;
+  color: rgba(248, 245, 238, 0.9);
+  text-align: right;
+  margin: 0 0 20px 0;
+  text-shadow: 0 1px 8px rgba(37, 31, 24, 0.5);
 }
 
-/* Body */
+/* Body copy */
 .index-hero-section .hero-body {
   font-family: Rubik, Assistant, sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.75;
-  color: rgba(248, 245, 238, 0.88);
-  margin: 0 0 36px;
-  text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: rgba(248, 245, 238, 0.82);
+  text-align: right;
+  margin: 0 0 32px 0;
+  text-shadow: 0 1px 6px rgba(37, 31, 24, 0.4);
+  max-width: 580px;
 }
 
-/* CTA Row */
-.index-hero-section .hero-cta-row {
+/* CTA group */
+.index-hero-section .hero-cta-group {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 16px;
   flex-wrap: wrap;
-  margin-bottom: 36px;
+  margin-bottom: 40px;
 }
 
-/* Primary Button */
 .index-hero-section .hero-btn-primary {
   display: inline-block;
   background: linear-gradient(180deg, #9B5A24 0%, #6F3812 100%);
   color: #FFFDF8;
-  padding: 15px 32px;
+  padding: 15px 30px;
   border-radius: 2px;
   border: none;
-  font-family: Rubik, Assistant, sans-serif;
   font-weight: 700;
   font-size: 1rem;
   line-height: 1;
-  text-decoration: none;
   box-shadow: 0 4px 18px rgba(66, 36, 16, 0.38);
+  text-decoration: none;
+  font-family: Rubik, Assistant, sans-serif;
   transition: all 0.25s ease;
   white-space: nowrap;
 }
@@ -7807,37 +7865,42 @@ body.accessibility-widget-visible ._access-menu {
   color: #FFFDF8;
 }
 
-/* Ghost Button */
 .index-hero-section .btn-ghost-hero {
   display: inline-block;
   background: transparent;
   color: var(--text-light);
-  border: 2px solid rgba(248, 245, 238, 0.5);
-  padding: 13px 28px;
+  padding: 14px 26px;
   border-radius: 2px;
-  font-family: Rubik, Assistant, sans-serif;
+  border: 1.5px solid rgba(248, 245, 238, 0.45);
   font-weight: 600;
   font-size: 1rem;
   line-height: 1;
   text-decoration: none;
+  font-family: Rubik, Assistant, sans-serif;
   transition: all 0.25s ease;
   white-space: nowrap;
 }
 
 .index-hero-section .btn-ghost-hero:hover {
   background: rgba(248, 245, 238, 0.12);
-  border-color: rgba(248, 245, 238, 0.8);
-  transform: translateY(-2px);
+  border-color: rgba(248, 245, 238, 0.7);
   color: var(--text-light);
+  transform: translateY(-2px);
 }
 
-/* Trust Row */
+/* Trust row */
 .index-hero-section .hero-trust-row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0;
+  background: rgba(37, 31, 24, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(200, 166, 106, 0.22);
+  border-radius: 4px;
+  padding: 14px 20px;
 }
 
 .index-hero-section .hero-trust-item {
@@ -7845,19 +7908,29 @@ body.accessibility-widget-visible ._access-menu {
   flex-direction: row;
   align-items: center;
   gap: 8px;
+  color: rgba(248, 245, 238, 0.88);
   font-family: Rubik, Assistant, sans-serif;
   font-size: 0.875rem;
-  font-weight: 500;
-  color: rgba(248, 245, 238, 0.82);
+  font-weight: 600;
+  padding: 4px 14px;
+  white-space: nowrap;
 }
 
-.index-hero-section .hero-trust-item i {
+.index-hero-section .hero-trust-icon {
   color: var(--accent);
-  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
   flex-shrink: 0;
 }
 
-/* Bottom Divider */
+.index-hero-section .hero-trust-divider {
+  width: 1px;
+  height: 28px;
+  background: rgba(200, 166, 106, 0.28);
+  flex-shrink: 0;
+}
+
+/* Bottom divider wrapper */
 .index-hero-section .hero-divider-wrapper {
   position: absolute;
   bottom: 0;
@@ -7874,66 +7947,85 @@ body.accessibility-widget-visible ._access-menu {
   height: 100%;
 }
 
-/* ── RESPONSIVE ── */
-@media (max-width: 900px) {
-  .index-hero-section .hero-h1 {
-    font-size: 2.6rem;
-  }
-  .index-hero-section .hero-container {
-    padding: 130px 32px 60px;
-  }
-  .index-hero-section .hero-content-wrapper {
-    max-width: 100%;
-  }
-}
-
+/* ─── RESPONSIVE ─────────────────────────────────────── */
 @media (max-width: 768px) {
   .index-hero-section {
-    min-height: 100svh;
-    align-items: flex-end;
+    min-height: 100vh;
     padding-bottom: 80px;
+    align-items: flex-start;
   }
-  .index-hero-section .hero-scrim {
-    background-image:
-      linear-gradient(to top, rgba(30, 25, 18, 0.95) 0%, rgba(30, 25, 18, 0.72) 55%, rgba(30, 25, 18, 0.2) 100%);
-  }
+
   .index-hero-section .hero-container {
-    padding: 100px 20px 40px;
+    padding: 110px 20px 40px;
   }
-  .index-hero-section .hero-content-wrapper {
+
+  .index-hero-section .hero-content-wrap {
     max-width: 100%;
   }
+
   .index-hero-section .hero-h1 {
-    font-size: 2rem;
-    margin-bottom: 14px;
+    font-size: 2.1rem;
+    margin-bottom: 12px;
   }
+
   .index-hero-section .hero-h3 {
     font-size: 1.05rem;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
   }
+
   .index-hero-section .hero-body {
-    font-size: 0.95rem;
+    font-size: 16px;
     margin-bottom: 24px;
   }
-  .index-hero-section .hero-cta-row {
+
+  .index-hero-section .hero-cta-group {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 12px;
-    margin-bottom: 24px;
+    margin-bottom: 28px;
+    width: 100%;
   }
+
   .index-hero-section .hero-btn-primary,
   .index-hero-section .btn-ghost-hero {
-    width: 100%;
     text-align: center;
-    padding: 14px 20px;
+    width: 100%;
+    padding: 15px 20px;
   }
+
   .index-hero-section .hero-trust-row {
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 4px;
+    padding: 12px 14px;
   }
+
+  .index-hero-section .hero-trust-divider {
+    display: none;
+  }
+
+  .index-hero-section .hero-trust-item {
+    padding: 4px 0;
+    font-size: 0.8125rem;
+  }
+
   .index-hero-section .hero-badge {
-    margin-bottom: 16px;
+    margin-bottom: 18px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .index-hero-section .hero-container {
+    padding: 130px 36px 40px;
+  }
+
+  .index-hero-section .hero-h1 {
+    font-size: 2.6rem;
+  }
+
+  .index-hero-section .hero-trust-item {
+    font-size: 0.8125rem;
+    padding: 4px 10px;
   }
 }
 
