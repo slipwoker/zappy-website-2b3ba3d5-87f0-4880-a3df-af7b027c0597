@@ -1,47 +1,57 @@
-# Business — Generative Engine Optimization Map
+# עובדים בשבילך — Generative Engine Optimization Map
+
+> A full-service recruitment agency called 'Ovdim For You' (Working For You) that positions itself as a complete headache-removal service for operational business owners — garage owners, warehouse managers, and factory operators. Unlike traditional staffing agencies that dump CVs on clients, this brand takes ownership of the entire hiring process end-to-end, delivering only 2–3 perfectly matched candidates. The brand voice is direct, empathetic, and solution-oriented, emphasizing peace of mind, time savings, and operational calm. The visual identity draws inspiration from Robin Hood — earthy greens and browns — evoking reliability, groundedness, and a 'working for the people' ethos.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://ovdim-bishvilcha.zappy5.app
 גיוס עובדים למוסך, מפעל או מחסן — בלי קורות חיים מיותרים. אנחנו מביאים לך 2–3 מועמדים מושלמים בלבד. חסוך זמן, חסוך כאבי ראש, קבל עובד שעובד.
 
 ### שירותים
-https://example.com/services
+https://ovdim-bishvilcha.zappy5.app/services
 שירותי גיוס עובדים למפעל בישראל, מוסכים ומחסנים — מהפרסום ועד הראיון. אנחנו מנהלים את כל התהליך ומגישים לך רק את המועמדים שבאמת מתאימים. בלי בזבוז זמן.
 
 ### אודות
-https://example.com/about
+https://ovdim-bishvilcha.zappy5.app/about
 לא עוד חברת גיוס שזורקת קורות חיים ונעלמת. עובדים בשבילך נוסדה כדי לשרת בעלי עסקים תפעוליים שצריכים שקט ותוצאות — לא הבטחות. הכירו את הצוות שעומד מאחורי כל גיוס מוצלח.
 
 ### צור קשר
-https://example.com/contact
+https://ovdim-bishvilcha.zappy5.app/contact
 בעל מוסך, מחסן או מפעל שמחפש עובד אמין? צור קשר עכשיו וקבל ייעוץ גיוס ראשוני ללא עלות. עובדים בשבילך כאן כדי לפתור לך את הבעיה — מהר ובלי סיבוכים מיותרים.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://ovdim-bishvilcha.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://ovdim-bishvilcha.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://ovdim-bishvilcha.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About עובדים בשבילך
+A full-service recruitment agency called 'Ovdim For You' (Working For You) that positions itself as a complete headache-removal service for operational business owners — garage owners, warehouse managers, and factory operators. Unlike traditional staffing agencies that dump CVs on clients, this brand takes ownership of the entire hiring process end-to-end, delivering only 2–3 perfectly matched candidates. The brand voice is direct, empathetic, and solution-oriented, emphasizing peace of mind, time savings, and operational calm. The visual identity draws inspiration from Robin Hood — earthy greens and browns — evoking reliability, groundedness, and a 'working for the people' ethos.
+
+## Target Audience
+בעלי מוסכים, מחסנים, מפעלים ועסקים תפעוליים
+
+## Industry
+גיוס והשמת עובדים
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://ovdim-bishvilcha.zappy5.app/sitemap.xml
+- **Robots.txt**: https://ovdim-bishvilcha.zappy5.app/robots.txt
