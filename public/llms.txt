@@ -1,6 +1,4 @@
-# עובדים בשבילך — Generative Engine Optimization Map
-
-> A full-service recruitment agency called 'Ovdim For You' (Working For You) that positions itself as a complete headache-removal service for operational business owners — garage owners, warehouse managers, and factory operators. Unlike traditional staffing agencies that dump CVs on clients, this brand takes ownership of the entire hiring process end-to-end, delivering only 2–3 perfectly matched candidates. The brand voice is direct, empathetic, and solution-oriented, emphasizing peace of mind, time savings, and operational calm. The visual identity draws inspiration from Robin Hood — earthy greens and browns — evoking reliability, groundedness, and a 'working for the people' ethos.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,15 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About עובדים בשבילך
-A full-service recruitment agency called 'Ovdim For You' (Working For You) that positions itself as a complete headache-removal service for operational business owners — garage owners, warehouse managers, and factory operators. Unlike traditional staffing agencies that dump CVs on clients, this brand takes ownership of the entire hiring process end-to-end, delivering only 2–3 perfectly matched candidates. The brand voice is direct, empathetic, and solution-oriented, emphasizing peace of mind, time savings, and operational calm. The visual identity draws inspiration from Robin Hood — earthy greens and browns — evoking reliability, groundedness, and a 'working for the people' ethos.
-
-## Target Audience
-בעלי מוסכים, מחסנים, מפעלים ועסקים תפעוליים
-
-## Industry
-גיוס והשמת עובדים
-
+## About Business
 ---
 
 # Additional Resources
